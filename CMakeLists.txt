@@ -9,4 +9,7 @@ CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
 # Executable
 ADD_EXECUTABLE(name-card name-card.c
 	init.c
-	input.c)
+	input.c
+	display.c
+	load.c
+	save.c)
