@@ -5,6 +5,7 @@
 #include <stdlib.h>
 
 #include "init.h"
+#include "input.h"
 
 #define NAME_SIZE	21
 #define PHONE_SIZE	16
