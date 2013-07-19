@@ -12,4 +12,5 @@ ADD_EXECUTABLE(name-card name-card.c
 	input.c
 	display.c
 	load.c
-	save.c)
+	save.c
+	search.c)

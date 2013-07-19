@@ -6,6 +6,10 @@
 
 #include "init.h"
 #include "input.h"
+#include "display.h"
+#include "load.h"
+#include "save.h"
+#include "search.h"
 
 #define NAME_SIZE	21
 #define PHONE_SIZE	16
