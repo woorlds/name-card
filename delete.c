@@ -17,7 +17,7 @@ delete_card(char *value)
 	{
 		return 0;
 	}
-	p->next = temp->next;
+	previous->next = temp->next;
 	free(temp);
 	
 	return 1;
