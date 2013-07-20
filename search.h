@@ -3,6 +3,6 @@
 
 #include "name-card.h"
 
-struct name_card *search_card(char *s);
+struct name_card *search_card(char *file_name);
 
 #endif

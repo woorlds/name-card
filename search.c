@@ -1,12 +1,12 @@
 #include "search.h"
 
 struct name_card
-*search_card(char *s)
+*search_card(char *file_name)
 {
 	struct name_card *tmp;
 
 	tmp = head->next;
-	while((strcmp(s, tmp->name) != 0) && (tmp!=tail))
+	while((strcmp(file_name, tmp->name) != 0) && (tmp!=tail))
 	{
 		tmp = tmp->next;
 	}
